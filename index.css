@@ -1,0 +1,135 @@
+.body {
+   background: black;
+}
+#navbar{
+    background-color: rgb(0, 0, 0);
+}
+.nav-item{
+    font-weight: bold;
+    color: darkgrey;
+    position: relative;
+    bottom: 3px;
+}
+#navlist a:hover{
+    color:#FF6500;
+}
+#navlist a:focus{
+    font-weight: bold;
+    text-decoration: line-through white;
+    color: #FF6500;
+}
+#rmlogo{
+    position: relative;
+    bottom: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbarNav button{
+    color: lightgray;
+    border-color: lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: black;
+    border-style: solid;
+}
+#navbarNav button:hover{
+    color: #FF6500;
+    border-color: #FF6500;
+}
+
+/* ------------------news1---------------- */
+#headline1{
+    background-color: black;
+}
+#headline1 h2{
+    color: white;
+}
+#headline1 h5{
+    color: #FF6500;
+}
+#headlineimg img{
+    transition: 1s ease;
+}
+#headlineimg img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+#headline1 h2:hover{
+    color: #FF6500;
+}
+/* -----------------news--------------- */
+#news-page{
+    border-color: black;
+    background-color: black;
+}
+.card-body{
+    background-color: black;
+}
+.card-body h4{
+    color: white;
+}
+.card-body h4:hover{
+    color: #FF6500;
+}
+#news img{
+    transition: 1s ease;
+}
+#news img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+/* -------------tickets--------------------- */
+#tickets{
+    background-color: black;
+}
+#tickets h1{
+    font-weight: bold;
+    color: #FF6500;
+}
+#ticket-card-center h3,h4{
+    color: #FF6500;
+    font-weight: bold;
+}
+#ticket-card-center {
+    color: darkgrey;
+    background-color: black;
+}
+#ticket-button{
+    background-color: black;
+}
+#ticket-button button{
+    color: #FF6500;
+    background-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: #FF6500;
+}
+#ticket-button button:hover{
+    border-style: solid;
+    color: white;
+    border-color: white;
+}
+/* ---------------footer---------------- */
+#footer-join-btn button{
+    color: #FF6500;
+    border-style: solid;
+    border-color: #FF6500;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+#footer-join-btn button:hover{
+    color: white;
+    border-color: white;
+}

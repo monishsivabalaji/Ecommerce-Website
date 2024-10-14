@@ -1,0 +1,189 @@
+.body {
+    background: black;
+ }
+ #navbar{
+     background-color: rgb(0, 0, 0);
+ }
+ .nav-item{
+     font-weight: bold;
+     color: darkgrey;
+     position: relative;
+     bottom: 3px;
+ }
+ #navlist a:hover{
+     color:#FF6500;
+ }
+ #navlist a:focus{
+     font-weight: bold;
+     text-decoration: line-through white;
+     color: #FF6500;
+ 
+ }
+ #rmlogo{
+     position: relative;
+     bottom: 6px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #navbarNav button{
+    color: lightgray;
+    border-color: lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: black;
+    border-style: solid;
+}
+#navbarNav button:hover{
+    color: #FF6500;
+    border-color: #FF6500;
+}
+/* ------------------shop-adv--------------- */
+#shop-adv{
+    background-color: black;
+}
+#shop-adv h2{
+    color: white;
+}
+#shop-adv h5{
+    color: #FF6500;
+}
+#shop-adv h2:hover{
+    color: #FF6500;
+}
+#shop-adv img{
+    transition: 1s ease;
+}
+#shop-adv img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+#shop-adv button{
+    margin-top: 3%;
+    color: #FF6500;
+    border-style: solid;
+    border-color: #FF6500;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+#shop-adv button:hover{
+    color: lightgray;
+    border-color: lightgray;
+}
+/* ----------------shop-list------------ */
+#shop-list h1{
+    padding-top: 5px;
+    color: #FF6500;
+}
+#shop-list{
+    background-color: black;
+}
+#shop-card{
+    background-color: black;
+}
+#shop-list h3{
+    padding-top: 10px;
+    color: #FF6500;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#shop-list img{
+    transition: 1s ease;
+    
+}
+#shop-list img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+#shop-list button{
+    margin: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #FF6500;
+    border-style: solid;
+    border-color: #FF6500;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+#shop-list button:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+/* ---------------list------------- */
+#home-list h1{
+    color: #FF6500;
+}
+#home-list{
+    background-color: black;
+}
+#list-card{
+    background-color: black;
+}
+#list-card img{
+    transition: 0.5s  ease;
+    
+}
+#list-card img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.5s ease;
+}
+#list-card h3{
+    padding-top: 1em;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+#list-card label{
+    color: white;
+    font-size: large;
+}
+#list-card button{
+    margin: 10px;
+    font-weight: 700;
+    border-style: solid;
+    font-family: sans-serif;
+    color: #FF6500;
+    border-style: solid;
+    border-color: #FF6500;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}   
+#list-card button:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+/* ---------------footer---------------- */
+#footer-join-btn button{
+    color: #FF6500;
+    border-style: solid;
+    border-color: #FF6500;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+#footer-join-btn button:hover{
+    color: white;
+    border-color: white;
+}
